@@ -63,7 +63,9 @@ public class TestNavmeshSampleTool : ISampleTool
     private long[] m_polys = new long[MAX_POLYS];
     private int m_npolys;
     private long[] m_parent = new long[MAX_POLYS];
+#pragma warning disable CS0169 // Remove Unused Warning
     private int m_nparent;
+#pragma warning restore CS0169 // Add Unused Warning
     private float m_neighbourhoodRadius;
     private RcVec3f[] m_queryPoly = new RcVec3f[4];
     private RcVec3f[] m_smoothPath = new RcVec3f[MAX_SMOOTH];

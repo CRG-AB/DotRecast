@@ -47,6 +47,7 @@ public class CrowdSampleTool : ISampleTool
     private RcCrowdToolMode m_mode = RcCrowdToolMode.CREATE;
     private int m_modeIdx = RcCrowdToolMode.CREATE.Idx;
 
+#pragma warning disable CS0414 // Assigned but Unused Warning
     private int _expandSelectedDebugDraw = 1;
     private bool _showCorners = true;
     private bool _showCollisionSegments = true;
@@ -61,6 +62,8 @@ public class CrowdSampleTool : ISampleTool
     private bool _showNodes = true;
     private bool _showPerfGraph = true;
     private bool _showDetailAll = true;
+#pragma warning restore CS0414 // Assigned but Unused Warning
+
 
     public CrowdSampleTool()
     {

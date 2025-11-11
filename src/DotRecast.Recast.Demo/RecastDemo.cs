@@ -85,7 +85,9 @@ public class RecastDemo : IRecastDemoChannel
 
     private bool _mouseOverMenu;
     private bool pan;
+#pragma warning disable CS0414 // Assigned but Unused Warning
     private bool movedDuringPan;
+#pragma warning restore CS0414 // Assigned but Unused Warning
     private bool rotate;
     private bool movedDuringRotate;
     private float scrollZoom;
@@ -109,7 +111,9 @@ public class RecastDemo : IRecastDemoChannel
     private float _moveAccel;
 
     private int[] viewport;
+#pragma warning disable CS0414 // Assigned but Unused Warning
     private bool markerPositionSet;
+#pragma warning restore CS0414 // Assigned but Unused Warning
     private RcVec3f markerPosition = new RcVec3f();
 
     private RcMenuView _menuView;
