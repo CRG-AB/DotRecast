@@ -11,20 +11,21 @@
     <RepositoryUrl>https://github.com/ikpil/DotRecast</RepositoryUrl>
     <PackageTags>game gamedev ai csharp server unity navigation game-development unity3d pathfinding pathfinder recast detour navmesh crowd-simulation recastnavigation</PackageTags>
     <PackageReleaseNotes>https://github.com/ikpil/DotRecast/blob/main/CHANGELOG.md</PackageReleaseNotes>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="../../README.md" Pack="true" PackagePath="\"/>
+    <None Include="../../README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DotRecast.Core\DotRecast.Core.csproj"/>
-    <ProjectReference Include="..\DotRecast.Recast\DotRecast.Recast.csproj"/>
-    <ProjectReference Include="..\DotRecast.Detour\DotRecast.Detour.csproj"/>
-    <ProjectReference Include="..\DotRecast.Detour.Crowd\DotRecast.Detour.Crowd.csproj"/>
-    <ProjectReference Include="..\DotRecast.Detour.Dynamic\DotRecast.Detour.Dynamic.csproj"/>
-    <ProjectReference Include="..\DotRecast.Detour.Extras\DotRecast.Detour.Extras.csproj"/>
-    <ProjectReference Include="..\DotRecast.Detour.TileCache\DotRecast.Detour.TileCache.csproj"/>
+    <ProjectReference Include="..\DotRecast.Core\DotRecast.Core.csproj" />
+    <ProjectReference Include="..\DotRecast.Recast\DotRecast.Recast.csproj" />
+    <ProjectReference Include="..\DotRecast.Detour\DotRecast.Detour.csproj" />
+    <ProjectReference Include="..\DotRecast.Detour.Crowd\DotRecast.Detour.Crowd.csproj" />
+    <ProjectReference Include="..\DotRecast.Detour.Dynamic\DotRecast.Detour.Dynamic.csproj" />
+    <ProjectReference Include="..\DotRecast.Detour.Extras\DotRecast.Detour.Extras.csproj" />
+    <ProjectReference Include="..\DotRecast.Detour.TileCache\DotRecast.Detour.TileCache.csproj" />
   </ItemGroup>
 
 </Project>
